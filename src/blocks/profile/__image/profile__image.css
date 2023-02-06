@@ -1,0 +1,23 @@
+.profile__image {
+  background: url(../../../images/profile.webp) center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.profile__image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #185a9d;
+  background-image: linear-gradient(to left top, #6c6a4c , #185a9d);
+  opacity: 0.85;
+}

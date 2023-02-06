@@ -1,0 +1,23 @@
+@font-face {
+  src: url('../fonts/Catamaran-Regular.ttf') format('ttf'),
+       url('../fonts/Catamaran-Regular.woff2') format('woff2'),
+       url('../fonts/Catamaran-Regular.woff') format('woff');
+  font-family: 'Catamaran';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('../fonts/Catamaran-Bold.ttf') format('ttf'),
+       url('../fonts/Catamaran-Bold.woff2') format('woff2'),
+       url('../fonts/Catamaran-Bold.woff') format('woff');
+  font-family: 'Catamaran';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('../fonts/Catamaran-Black.ttf') format('ttf'),
+       url('../fonts/Catamaran-Black.woff2') format('woff2'),
+       url('../fonts/Catamaran-Black.woff') format('woff');
+  font-family: 'Catamaran';
+  font-weight: 900;
+}

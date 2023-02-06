@@ -1,0 +1,18 @@
+.profile__info {
+  flex: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .profile__info {
+    margin-top: 300px;
+  }
+}

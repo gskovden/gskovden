@@ -1,0 +1,10 @@
+.profile__img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.profile__img:last-of-type {
+  margin-right: 0;
+}

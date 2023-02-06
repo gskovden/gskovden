@@ -1,0 +1,9 @@
+.resume__inner {
+  padding: 50px;
+}
+
+@media screen and (max-width: 400px) {
+  .resume__inner {
+    padding: 40px;
+  }
+}

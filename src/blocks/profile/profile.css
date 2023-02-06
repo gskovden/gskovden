@@ -1,0 +1,19 @@
+.profile {
+  color: #efefef;
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 1000px) {
+  .profile {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+}

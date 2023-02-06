@@ -1,0 +1,17 @@
+.resume__download {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  width: fit-content;
+  padding: 20px;
+  align-self: center;
+  margin-top: 20px;
+  background: #185a9d;
+  background-image: linear-gradient(to left top, #6c6a4c , #185a9d);
+  opacity: 0.85;
+  text-align: center;
+}
+
+.resume__download:first-of-type {
+  margin-top: 0;
+}

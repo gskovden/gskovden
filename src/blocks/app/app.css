@@ -1,0 +1,12 @@
+.app {
+  font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+  margin: 0 auto 0 auto;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1000px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+}
