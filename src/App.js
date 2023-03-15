@@ -35,8 +35,7 @@ function App() {
           <div className="resume__block">
             <p className="resume__title">INTRO</p>
             <div className="resume__area">
-              <p className="resume__text">I'm currently do projects as a freelancer - from simple landing pages to full-fledged web apps.</p>
-              <p className="resume__text">Looking for projects in a startup or in a company.</p>
+              <p className="resume__text">I'm a software engineer in "IT Cosmos"</p>
             </div>
           </div>
           <div className="resume__block">
@@ -48,7 +47,7 @@ function App() {
               </div>
               <div className="resume__piece">
                 <p className="resume__bold">LIBRARIES & FRAMEWORKS:&nbsp;</p>
-                <p className="resume__text">React, Redux, Node, Express, MongoDB, BEM, i18next</p>
+                <p className="resume__text">React, BEM, i18next</p>
               </div>
               <div className="resume__piece">
                 <p className="resume__bold">TOOLS:&nbsp;</p>
@@ -102,9 +101,16 @@ function App() {
               <div className="resume__part">
                 <div className="resume__item">
                   <p className="resume__text resume__bold">gskovdesign.ru</p>
-                  <p className="resume__date">Feb 2022 - PRESENT</p>
+                  <p className="resume__date">Feb 2022 - Mar 2023</p>
                 </div>
                 <p className="resume__text"><i>Web-developer</i></p>
+              </div>
+              <div className="resume__part">
+                <div className="resume__item">
+                  <p className="resume__text resume__bold">IT Cosmos</p>
+                  <p className="resume__date">Mar 2023 - PRESENT</p>
+                </div>
+                <p className="resume__text"><i>Software engineer</i></p>
               </div>
             </div>
           </div>
@@ -121,6 +127,10 @@ function App() {
               </div>
               <div className="resume__part">
                 <a className="resume__bold" href="https://альтера.рус" target="_blank">Landing page of the company "Altera"</a>
+                <p className="resume__text">The project developed in 2022. The website uses JavaScript (ES6), HTML5, CSS3, the assembly is carried out by Webpack, the layout is adaptive.</p>
+              </div>
+              <div className="resume__part">
+                <a className="resume__bold" href="https://proglass.net.ru" target="_blank">Landing page of the company "Proglass"</a>
                 <p className="resume__text">The project developed in 2022. The website uses JavaScript (ES6), HTML5, CSS3, the assembly is carried out by Webpack, the layout is adaptive.</p>
               </div>
               <div className="resume__part">
@@ -141,7 +151,7 @@ function App() {
             <p className="resume__title">LANGUAGES</p>
             <div className="resume__part">
               <p className="resume__text">Russian - native</p>
-              <p className="resume__text">English - fluent</p>
+              <p className="resume__text">English - advanced</p>
             </div>
           </div>
           <div className="resume__part">
