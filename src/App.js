@@ -95,7 +95,6 @@ function App() {
                 <p className="resume__date">JAN 2012 - Feb 2022</p>
               </div>
                 <p className="resume__text"><i>Associate Professor / Senior Research Fellow (part-time)</i></p>
-                <p className="resume__text">Analysis of a large amount of data in the framework of analytical and experimental studies in the electrical systems (using Math CAD, Auto CAD, MatLab).</p>
                 <p className="resume__text">Ufa, Russia</p>
               </div>
               <div className="resume__part">
