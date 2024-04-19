@@ -54,11 +54,123 @@ function App() {
             <p className="resume__title">ABOUT ME</p>
             <div className="resume__area">
               <p className="resume__text">
-                Frontend developer with over 3 years of experience in web
-                development. I specialize in creating high-performance user
-                interfaces using modern technologies and libraries. Experience
-                working on both commercial projects and freelance. Love chess :)
+                Frontend developer with 3+ years of experience in web
+                development. Work with React, Redux and TypeScript stack.
+                Experience working both on commercial projects in a team and
+                freelancing independently. Excellent English language skills to
+                work with original documentation. Love chess :)
               </p>
+            </div>
+          </div>
+          <div className="resume__block">
+            <p className="resume__title">EXPERIENCE</p>
+            <div className="resume__area">
+              <div className="resume__part">
+                <div className="resume__item">
+                  <p className="resume__text resume__bold">IT Cosmos</p>
+                  <p className="resume__date">Mar 2023 - PRESENT</p>
+                </div>
+                <p className="resume__text">
+                  <i>Software engineer</i>
+                </p>
+                <p className="resume__text">Work with an enterprise system for the oil and gas industry to
+                  improve its performance, functionality and scalability:</p>
+                <ul className="resume__ul">
+                  <li>
+                    Updated the React library from version 16 to 18, which
+                    ensured system compatibility with the latest technological
+                    requirements and allowed the project to scale
+                  </li>
+                  <li>
+                    Implemented strong typing using TypeScript, thereby
+                    increasing the reliability of development
+                  </li>
+                  <li>
+                    Upgraded the state manager to the modern Redux Toolkit,
+                    which increased the efficiency of application state
+                    management
+                  </li>
+                  <li>
+                    Integrated Formik to manage forms and process their states
+                  </li>
+                  <li>
+                    Implemented requests to the server using the Axios library,
+                    which ensured reliable and fast communication with the
+                    backend
+                  </li>
+                  <li>
+                    Updated the user interface using Material UI to improve and
+                    ensure a consistent design
+                  </li>
+                  <li>
+                    Used PostgreSQL to work with the database, including running
+                    queries and processing data
+                  </li>
+                </ul>
+              </div>
+              <div className="resume__part">
+                <div className="resume__item">
+                  <p className="resume__text resume__bold">
+                    Individual entrepreneurship / private practice / freelancing
+                    gskovden.ru/
+                  </p>
+                  <p className="resume__date">Feb 2022 - Mar 2023</p>
+                </div>
+                <p className="resume__text">
+                  <i>Web-developer</i>
+                </p>
+                <p className="resume__text">
+                Development and design of websites and web applications for various clients:
+                </p>
+                <ul className="resume__ul">
+                  <li>
+                  Used native JavaScript and React library to create interactive user interfaces
+                  </li>
+                  <li>
+                  Implemented best layout practices using HTML5 and CSS3
+                  </li>
+                  <li>
+                  Implemented responsive design using Flexbox and Grid Layout technologies
+                  </li>
+                  <li>
+                  Used Webpack 5 to build projects, as well as Babel for code transpilation
+                  </li>
+                  <li>
+                  Used Git for version control
+                  </li>
+                  <li>
+                  Used BEM methodology for reusable interface components
+                  </li>
+                  <li>
+                  Optimized projects for SEO and mobile devices
+                  </li>
+                </ul>
+              </div>
+              <div className="resume__part">
+                <div className="resume__item">
+                  <p className="resume__text resume__bold">
+                    Ufa State Aviation Technical University
+                  </p>
+                  <p className="resume__date">JAN 2012 - Feb 2022</p>
+                </div>
+                <p className="resume__text">
+                  <i>
+                    Associate Professor / Senior Research Fellow (part-time)
+                  </i>
+                </p>
+                <p className="resume__text">Ufa, Russia</p>
+                <p className="resume__text">
+                Engaged in analytical and computer research in the field of electrical power systems and developed websites:
+                </p>
+                <ul className="resume__ul">
+                  <li>
+                  Developed websites for internal corporate departments
+                  </li>
+                  <li>
+                  Used mathematical methods and computer analysis to calculate electrical networks and electrical equipment
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="resume__block">
@@ -73,8 +185,8 @@ function App() {
               <div className="resume__piece">
                 <p className="resume__bold">LIBRARIES & FRAMEWORKS:&nbsp;</p>
                 <p className="resume__text">
-                  React, Redux, React Query, Formik, React Router, Material UI, Axios,
-                  i18next, SaaS
+                  React, Redux, React Query, Formik, React Router, Material UI,
+                  Axios, i18next, SaaS
                 </p>
               </div>
               <div className="resume__piece">
@@ -129,87 +241,6 @@ function App() {
                   </i>
                 </p>
                 <p className="resume__text">Innopolis, Russia</p>
-              </div>
-            </div>
-          </div>
-          <div className="resume__block">
-            <p className="resume__title">EXPERIENCE</p>
-            <div className="resume__area">
-              <div className="resume__part">
-                <div className="resume__item">
-                  <p className="resume__text resume__bold">IT Cosmos</p>
-                  <p className="resume__date">Mar 2023 - PRESENT</p>
-                </div>
-                <p className="resume__text">
-                  <i>Software engineer</i>
-                </p>
-                <p className="resume__text">
-                  Upgrading an enterprise system for the oil and gas industry to
-                  improve its performance, functionality and scalability.
-                  Migrated from React library version 16 to version 18 to ensure
-                  compatibility with latest technology requirements and updates.
-                  Implemented Material UI to improve the user experience and
-                  ensure a consistent design. Implement strong typing using
-                  TypeScript to improve code reliability and readability. Using
-                  the Redux Toolkit state manager to effectively manage
-                  application state. Using Formik to manage forms and handle
-                  their states. Implementation of requests to the server using
-                  the Axios library, providing reliable and fast communication
-                  with the backend. Use PostgreSQL to work with the database,
-                  including running queries, processing data and ensuring data
-                  integrity.
-                </p>
-              </div>
-              <div className="resume__part">
-                <div className="resume__item">
-                  <p className="resume__text resume__bold">
-                    Individual entrepreneurship / private practice / freelancing
-                    gskovden.ru/
-                  </p>
-                  <p className="resume__date">Feb 2022 - Mar 2023</p>
-                </div>
-                <p className="resume__text">
-                  <i>Web-developer</i>
-                </p>
-                <p className="resume__text">
-                  Development and design of websites and web applications for
-                  various clients. All projects used BEM methodology for website
-                  extensibility and reusable interface components. Webpack 5 was
-                  used to build the projects, as well as Babel for code
-                  transpilation. Git was used for version control. Applying best
-                  practices for layout using HTML, CSS and JavaScript. All
-                  projects were developed with responsive design using Flexbox
-                  and Grid Layout. Using React to create dynamic user
-                  interfaces. Optimizing projects for SEO and mobile devices.
-                </p>
-              </div>
-              <div className="resume__part">
-                <div className="resume__item">
-                  <p className="resume__text resume__bold">
-                    Ufa State Aviation Technical University
-                  </p>
-                  <p className="resume__date">JAN 2012 - Feb 2022</p>
-                </div>
-                <p className="resume__text">
-                  <i>
-                    Associate Professor / Senior Research Fellow (part-time)
-                  </i>
-                </p>
-                <p className="resume__text">Ufa, Russia</p>
-                <p className="resume__text">
-                  Conducting analytical research in the field of big data using
-                  modern methods and technologies. Computer modeling of
-                  electrical networks and electrical equipment using MATLAB,
-                  Mathcad and ANSYS software. Develop and analyze models to
-                  optimize the operation of electrical systems and equipment to
-                  improve efficiency and reliability. Using mathematical methods
-                  and statistical analyzes to identify patterns and trends in
-                  large volumes of data. Conducting experiments and testing
-                  various hypotheses in order to optimize production processes
-                  and equipment. Prepare reports, scientific articles and
-                  presentations at conferences and seminars demonstrating
-                  research results.
-                </p>
               </div>
             </div>
           </div>
