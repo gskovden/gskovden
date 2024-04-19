@@ -54,10 +54,10 @@ function App() {
             <p className="resume__title">ABOUT ME</p>
             <div className="resume__area">
               <p className="resume__text">
-                Frontend developer with over 3 years of experience
-                in web development. I specialize in creating high-performance
-                user interfaces using modern technologies and libraries.
-                Experience working on both commercial projects and freelance.
+                Frontend developer with over 3 years of experience in web
+                development. I specialize in creating high-performance user
+                interfaces using modern technologies and libraries. Experience
+                working on both commercial projects and freelance. Love chess :)
               </p>
             </div>
           </div>
@@ -67,19 +67,21 @@ function App() {
               <div className="resume__piece">
                 <p className="resume__bold">PROGRAMMING LANGUAGES:&nbsp;</p>
                 <p className="resume__text">
-                  JavaScript (ES6), Typescript, HTML5, CSS3, sql
+                  JavaScript (ES6+), Typescript, HTML5, CSS3, SQL
                 </p>
               </div>
               <div className="resume__piece">
                 <p className="resume__bold">LIBRARIES & FRAMEWORKS:&nbsp;</p>
                 <p className="resume__text">
-                  React, redux, formik, axios, i18next, BEM
+                  React, Redux, React Query, Formik, React Router, Material UI, Axios,
+                  i18next, SaaS
                 </p>
               </div>
               <div className="resume__piece">
                 <p className="resume__bold">TOOLS:&nbsp;</p>
                 <p className="resume__text">
-                  Webpack 5, Git, Bitbucket, Postman, npm, babel, eslint, Figma
+                  Webpack 5, Git, Bitbucket, Postman, npm, Babel, Eslint,
+                  Prettier, Figma, BEM
                 </p>
               </div>
             </div>
@@ -171,8 +173,13 @@ function App() {
                 </p>
                 <p className="resume__text">
                   Development and design of websites and web applications for
-                  various clients. Applying best practices for layout using
-                  HTML, CSS and JavaScript. Using React to create dynamic user
+                  various clients. All projects used BEM methodology for website
+                  extensibility and reusable interface components. Webpack 5 was
+                  used to build the projects, as well as Babel for code
+                  transpilation. Git was used for version control. Applying best
+                  practices for layout using HTML, CSS and JavaScript. All
+                  projects were developed with responsive design using Flexbox
+                  and Grid Layout. Using React to create dynamic user
                   interfaces. Optimizing projects for SEO and mobile devices.
                 </p>
               </div>
